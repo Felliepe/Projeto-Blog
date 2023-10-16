@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blog Tech</title>
+</head>
+
+<body>
+
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Blog Tech</h2>
+            <span class="home-subtitle">Tudo sobre o espaço tech</span>
+        </div>
+    </section>
+
+    <div class="post-filter container menu">
+        <ul>
+            <li> <a href="">Início</a></li>
+            <li> <a href="">Contato</a></li>
+            <li> <a href="">Categorias</a>
+                <ul>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Computação</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="post-box" onclick="incrementaVisita(this)">
+            <div class="post-card" data-post-id="post-1">
+                <img src="images/img1.jpg" alt="" class="post-img">
+                <h2 class="category">Tecnologia</h2>
+                <a href="home.html" class="post-title">
+                    O poder transformador da tecnologia: permitindo o progresso e a inovação</a>
+                <span class="post-date">25/08/2023</span>
+                <p class="post-description">Em uma era definida por rápidos avanços e inovações, a tecnologia
+                    emergiu como uma força motriz que
+                    molda quase todos os aspectos de nossas vidas...</p>
+                <span class="hit-count">0</span> <!-- Contagem -->
+            </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="post-box food" onclick="incrementaVisita(this)">
+            <div class="post-card" data-post-id="post-2">
+                <img src="images/img9.jpg" alt="" class="post-img">
+                <h2 class="category">Tecnologia</h2>
+                <a href="mundo.html" class="post-title">Aproveitando a tecnologia para uma filantropia eficaz</a>
+                <span class="post-date">25/08/2023</span>
+                <p class="post-description">No mundo interconectado de hoje, a tecnologia revolucionou quase todos os
+                    aspectos de nossas vidas, e a
+                    filantropia
+                    não é
+                    exceção...</p>
+                <span class="hit-count">0</span> <!-- Contagem -->
+            </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="post-box food" onclick="incrementaVisita(this)">
+            <div class="post-card" data-post-id="post-3">
+                <img src="images/img8.jpg" alt="" class="post-img">
+                <h2 class="category">Computação</h2>
+                <a href="ia.html" class="post-title">Explorando os efeitos transformadores da inteligência artificial</a>
+                <span class="post-date">25/08/2023</span>
+                <p class="post-description">Numa era caracterizada por rápidos avanços tecnológicos, a
+                    inteligência artificial (IA) está na vanguarda da
+                    inovação, prometendo remodelar indústrias, economias e até mesmo a nossa...</p>
+                <span class="hit-count">0</span> <!-- Contagem -->
+            </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="post-box news" onclick="incrementaVisita(this)">
+            <div class="post-card" data-post-id="post-4">
+                <img src="images/img5.jpg" alt="" class="post-img">
+                <h2 class="category">Computação</h2>
+                <a href="ciência.html" class="post-title">Explorando a evolução da ciência da computação</a>
+                <span class="post-date">25/08/2023</span>
+                <p class="post-description">O mundo da ciência da computação testemunhou uma jornada
+                    extraordinária desde o seu início, transformando-se de
+                    conceitos teóricos para uma parte integrante de nossas vidas...</p>
+                <span class="hit-count">0</span> <!-- Contagem -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Redes Sociais</h1>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h2>Links Rápidos</h2>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#" class="footer-link">Início</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Categorias</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h2>Inscreva-se</h2>
+                <p>Receba nossas últimas atualizações diretamente na sua caixa de entrada.</p>
+                <div class="subscribe-form">
+                    <input type="email" id="email" placeholder="Seu e-mail">
+                    <button>
+                        <i class="far fa-envelope"></i> Inscrever-se
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        &copy; 2023 Todos os direitos reservados
+    </div>
+    </footer>
+
+    <script src="project.js"></script>
+</body>
+
+</html>
